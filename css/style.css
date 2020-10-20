@@ -29,14 +29,14 @@ body{
 	border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.content-1 h3{
+.content-1 h2{
 	color: hsl(179, 62%, 43%);
 	margin-bottom: 1.5rem;
 }
 
-.content-1 h4{
+.content-1 h3{
 	color: hsl(71, 73%, 54%);
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .content-1 p{
@@ -72,6 +72,7 @@ body{
 
 .cont-2-price{
 	color: white;
+	font-weight: 700;
 	font-size: 32px;
 }
 
@@ -121,6 +122,10 @@ body{
 }
 
 @media only screen and (max-width: 706px){
+
+	.content-1 h3{
+		margin-bottom: 1.5rem;
+	}
 
 	.inner-container{
 		flex-direction: column;
